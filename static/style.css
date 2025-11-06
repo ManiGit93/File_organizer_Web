@@ -1,0 +1,95 @@
+/* ===========================
+   Base / Typography
+   =========================== */
+:root {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial;
+}
+
+/* Page background and spacing */
+body {
+  background: #f7f7fb;
+  color: #111;
+  margin: 0;
+  padding: 24px;
+}
+
+/* ===========================
+   Main container / Card
+   =========================== */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+/* Heading */
+h1 {
+  margin-top: 0;
+}
+
+/* ===========================
+   Upload area
+   =========================== */
+.upload {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+/* File input inline style */
+.file-input input[type="file"] {
+  display: inline-block;
+}
+
+/* ===========================
+   Flash messages / alerts
+   =========================== */
+.flash {
+  margin-bottom: 12px;
+}
+
+.msg {
+  background: #e6ffe6;
+  border: 1px solid #b7ffb7;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/* ===========================
+   Table (uploads list)
+   =========================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+/* ===========================
+   Buttons & links
+   =========================== */
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.95;
+}
+
+a {
+  color: #2563eb;
+}
