@@ -1,18 +1,16 @@
-# 📝 Smart To-Do List Web Application
+# 📁 File Organizer Web Application
 
-A full-stack **To-Do List web application** built using **Python and Flask**, featuring task management, database storage, automation, and web scraping. This project demonstrates real-world backend development skills and best practices using Git and GitHub.
+A **File Organizer Web Application** built using **Python and Flask** that helps users automatically organize files into folders based on file type. This project demonstrates backend logic, file handling, automation concepts, and web development using Flask.
 
 ---
 
 ## 🚀 Features
 
-- ➕ Add new tasks
-- 🗑️ Delete existing tasks
-- 💾 Persistent storage using SQLite
-- 🌐 Web interface using Flask & HTML
-- 🎨 Responsive UI with Bootstrap & CSS
-- 🤖 Automated daily task insertion using scheduling
-- 🔍 Web scraping using BeautifulSoup & Requests
+- 📂 Upload files through a web interface
+- 🗂️ Automatically organize files by extension (Documents, Images, Videos, etc.)
+- 🔄 Move files into categorized folders
+- 🌐 Web-based UI using Flask
+- 🧠 Clean and simple project structure
 - 🔧 Version control using Git & GitHub
 
 ---
@@ -23,10 +21,9 @@ A full-stack **To-Do List web application** built using **Python and Flask**, fe
 |--------|------------------|
 | Core Language | Python |
 | Web Framework | Flask |
-| Database | SQLite |
-| Web Scraping | BeautifulSoup, Requests |
-| Automation | schedule / cron |
+| File Handling | os, shutil |
 | Frontend | HTML, CSS, Bootstrap |
+| Automation | Python scripts |
 | Version Control | Git, GitHub |
 | Deployment (Optional) | Render / Heroku |
 
